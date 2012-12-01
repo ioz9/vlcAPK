@@ -31,6 +31,7 @@ import org.videolan.vlc.LibVLC;
 import org.videolan.vlc.Media;
 import org.videolan.vlc.R;
 import org.videolan.vlc.Util;
+import org.videolan.vlc.app.VLCApplication;
 
 import android.content.Context;
 import android.os.Environment;
@@ -41,7 +42,6 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
-import app.VLCApplication;
 
 public class DirectoryAdapter extends BaseAdapter {
     public final static String TAG = "VLC/DirectoryAdapter";

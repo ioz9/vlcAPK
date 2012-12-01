@@ -36,6 +36,8 @@ import java.util.Locale;
 import java.util.Properties;
 import java.util.StringTokenizer;
 
+import org.videolan.vlc.app.VLCApplication;
+
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.net.Uri;
@@ -47,7 +49,6 @@ import android.view.Display;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.Toast;
-import app.VLCApplication;
 
 public class Util {
     public final static String TAG = "VLC/Util";

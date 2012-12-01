@@ -22,6 +22,7 @@ package org.videolan.vlc;
 
 import java.util.ArrayList;
 
+import org.videolan.vlc.app.VLCApplication;
 import org.videolan.vlc.gui.video.VideoPlayerActivity;
 
 import android.content.Context;
@@ -30,7 +31,6 @@ import android.os.Build;
 import android.preference.PreferenceManager;
 import android.util.Log;
 import android.view.Surface;
-import app.VLCApplication;
 
 public class LibVLC {
     private static final String TAG = "VLC/LibVLC";

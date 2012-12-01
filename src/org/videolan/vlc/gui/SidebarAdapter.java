@@ -26,6 +26,7 @@ import java.util.List;
 
 import org.videolan.vlc.R;
 import org.videolan.vlc.Util;
+import org.videolan.vlc.app.VLCApplication;
 import org.videolan.vlc.gui.audio.AudioBrowserFragment;
 import org.videolan.vlc.gui.video.VideoGridFragment;
 
@@ -36,7 +37,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
-import app.VLCApplication;
 
 public class SidebarAdapter extends BaseAdapter {
     public final static String TAG = "VLC/SidebarAdapter";

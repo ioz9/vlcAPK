@@ -22,11 +22,12 @@ package org.videolan.vlc;
 
 import java.util.HashSet;
 
+import org.videolan.vlc.app.VLCApplication;
+
 import android.content.Context;
 import android.database.sqlite.SQLiteFullException;
 import android.graphics.Bitmap;
 import android.util.Log;
-import app.VLCApplication;
 
 public class Media implements Comparable<Media> {
 

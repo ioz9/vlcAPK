@@ -25,6 +25,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Stack;
 
+import org.videolan.vlc.app.VLCApplication;
 import org.videolan.vlc.gui.MainActivity;
 import org.videolan.vlc.gui.audio.AudioPlayerActivity;
 import org.videolan.vlc.gui.audio.AudioUtil;
@@ -56,7 +57,6 @@ import android.preference.PreferenceManager;
 import android.support.v4.app.NotificationCompat;
 import android.telephony.TelephonyManager;
 import android.util.Log;
-import app.VLCApplication;
 
 public class AudioService extends Service {
 

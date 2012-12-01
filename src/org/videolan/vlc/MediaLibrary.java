@@ -30,6 +30,7 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Stack;
 
+import org.videolan.vlc.app.VLCApplication;
 import org.videolan.vlc.gui.MainActivity;
 import org.videolan.vlc.gui.audio.AudioBrowserFragment;
 import org.videolan.vlc.gui.video.VideoGridFragment;
@@ -39,7 +40,6 @@ import android.os.Environment;
 import android.os.Handler;
 import android.os.Message;
 import android.util.Log;
-import app.VLCApplication;
 
 public class MediaLibrary {
     public final static String TAG = "VLC/MediaLibrary";

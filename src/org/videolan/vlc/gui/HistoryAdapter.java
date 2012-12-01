@@ -30,6 +30,7 @@ import org.videolan.vlc.Media;
 import org.videolan.vlc.R;
 import org.videolan.vlc.Util;
 import org.videolan.vlc.WeakHandler;
+import org.videolan.vlc.app.VLCApplication;
 
 import android.os.Message;
 import android.util.Log;
@@ -39,7 +40,6 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
-import app.VLCApplication;
 
 public class HistoryAdapter extends BaseAdapter {
     public final static String TAG = "VLC/HistoryAdapter";
