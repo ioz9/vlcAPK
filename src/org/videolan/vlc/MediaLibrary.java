@@ -39,6 +39,7 @@ import android.os.Environment;
 import android.os.Handler;
 import android.os.Message;
 import android.util.Log;
+import app.VLCApplication;
 
 public class MediaLibrary {
     public final static String TAG = "VLC/MediaLibrary";

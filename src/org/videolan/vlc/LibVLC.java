@@ -30,6 +30,7 @@ import android.os.Build;
 import android.preference.PreferenceManager;
 import android.util.Log;
 import android.view.Surface;
+import app.VLCApplication;
 
 public class LibVLC {
     private static final String TAG = "VLC/LibVLC";

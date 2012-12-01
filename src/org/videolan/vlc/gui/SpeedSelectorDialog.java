@@ -22,7 +22,6 @@ package org.videolan.vlc.gui;
 
 import org.videolan.vlc.LibVLC;
 import org.videolan.vlc.R;
-import org.videolan.vlc.VLCApplication;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -31,6 +30,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.SeekBar;
 import android.widget.TextView;
+import app.VLCApplication;
 
 public class SpeedSelectorDialog extends Dialog {
 

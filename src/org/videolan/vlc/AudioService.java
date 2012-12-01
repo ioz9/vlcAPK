@@ -56,6 +56,7 @@ import android.preference.PreferenceManager;
 import android.support.v4.app.NotificationCompat;
 import android.telephony.TelephonyManager;
 import android.util.Log;
+import app.VLCApplication;
 
 public class AudioService extends Service {
 

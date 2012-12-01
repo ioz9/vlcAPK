@@ -34,7 +34,6 @@ import org.videolan.vlc.Media;
 import org.videolan.vlc.MurmurHash;
 import org.videolan.vlc.R;
 import org.videolan.vlc.Util;
-import org.videolan.vlc.VLCApplication;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -50,6 +49,7 @@ import android.net.Uri;
 import android.os.Environment;
 import android.provider.MediaStore;
 import android.util.Log;
+import app.VLCApplication;
 
 public class AudioUtil {
 

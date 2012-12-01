@@ -47,6 +47,7 @@ import android.view.Display;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.Toast;
+import app.VLCApplication;
 
 public class Util {
     public final static String TAG = "VLC/Util";
