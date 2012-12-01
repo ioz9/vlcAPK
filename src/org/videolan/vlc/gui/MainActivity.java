@@ -30,11 +30,11 @@ import org.videolan.vlc.MediaLibrary;
 import org.videolan.vlc.R;
 import org.videolan.vlc.ThumbnailerManager;
 import org.videolan.vlc.Util;
-import org.videolan.vlc.VLCCallbackTask;
 import org.videolan.vlc.gui.SidebarAdapter.SidebarEntry;
 import org.videolan.vlc.gui.video.VideoListAdapter;
 import org.videolan.vlc.gui.video.VideoGridFragment;
 import org.videolan.vlc.interfaces.ISortable;
+import org.videolan.vlc.lib.VLCCallbackTask;
 import org.videolan.vlc.widget.AudioMiniPlayer;
 
 import android.app.AlertDialog;

@@ -17,7 +17,10 @@
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston MA 02110-1301, USA.
  *****************************************************************************/
-package org.videolan.vlc;
+package org.videolan.vlc.lib;
+
+import org.videolan.vlc.R;
+import org.videolan.vlc.R.string;
 
 import android.app.ProgressDialog;
 import android.content.Context;
