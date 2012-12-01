@@ -383,8 +383,7 @@ public class MainActivity extends SherlockFragmentActivity {
         super.onBackPressed();
     }
 
-    private Fragment getFragment(String id)
-    {
+    private Fragment getFragment(String id) {
         Fragment fragment = mSidebarAdapter.fetchFragment(id);
 
         if (!fragment.isAdded())
@@ -598,8 +597,7 @@ public class MainActivity extends SherlockFragmentActivity {
             public void onClick(DialogInterface dialog, int button) {
 
                 /* Start this in a new thread as to not block the UI thread */
-                VLCCallbackTask task = new VLCCallbackTask(MainActivity.this)
-                {
+                VLCCallbackTask task = new VLCCallbackTask(MainActivity.this) {
                     @Override
                     public void run() {
                       AudioServiceController c = AudioServiceController.getInstance();
