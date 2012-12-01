@@ -72,16 +72,14 @@ public class VLCApplication extends Application {
     /**
      * @return the main context of the Application
      */
-    public static Context getAppContext()
-    {
+    public static Context getAppContext() {
         return instance;
     }
 
     /**
      * @return the main resources from the Application
      */
-    public static Resources getAppResources()
-    {
+    public static Resources getAppResources() {
         return instance.getResources();
     }
 }
