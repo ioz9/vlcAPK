@@ -23,6 +23,8 @@ import java.util.Locale;
 
 import org.videolan.vlc.BitmapCache;
 
+import org.videolan.ACRA.ACRA;
+
 import android.app.Application;
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -37,6 +39,8 @@ public class VLCApplication extends Application {
 
     @Override
     public void onCreate() {
+        ACRA.init(this);
+
         super.onCreate();
 
         // Are we using advanced debugging - locale?
